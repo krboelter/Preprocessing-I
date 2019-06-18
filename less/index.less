@@ -57,3 +57,66 @@ html, body {
     height: 100%;
 }
 
+// ********** mix-ins **********
+
+
+// ********** variables **********
+
+@background: #4d4d4d;
+@sub-background: #262626;
+@background-highlight: #1a1a1a;
+@secondary: #008080;
+@secondary-highlight: #00ffcc;
+@text-color: #005ce6;
+
+
+// ********** Basic Styles **********
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background: @background;
+	color: @text-color;
+	width: 75%;
+	margin: 0 auto;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	background: @sub-background;
+	font-size: 1.5rem;
+	width: 100%;
+	height: 100px;
+
+	h1{
+		font-size: 3rem;
+		font-weight: bold;
+	}
+
+	.name-spacing{
+		padding: 8px 10%;
+	}
+
+	.nav-size{
+		width: 40%;
+
+		nav{
+			display: flex;
+			align-items: center;
+
+			a{
+				text-decoration: none;
+				color: @text-color;
+				padding: 5%;
+			}
+		}
+	}
+}
+
+
+
+
+
