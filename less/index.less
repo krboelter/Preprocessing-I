@@ -97,9 +97,9 @@ header{
 		width: 50%;
 
 		h1{
-			font-size: 4rem;
+			font-size: 5.5rem;
 			font-weight: bold;
-			padding: 15px 15px;
+			padding: 5px 15px;
 		}
 	
 		p{
@@ -109,19 +109,39 @@ header{
 	}
 
 	.nav-size{
-
 		width: 50%;
+		display: flex;
+		align-items: center;
 
 		.topnav{
+			width: 100%;
 			display: flex;
-			justify-content: space around;
-			align-items: center;
+			justify-content: space-around;
 	
 			a{
 				text-decoration: none;
 				color: @text-color;
+				padding: 20px 20px;
+			}
+
+			a:hover{
+				background: @background-highlight;
 			}
 		}
+	}
+}
+
+.outer-box{
+	margin: 30px auto;
+	background: @secondary;
+	height: 500px;
+	width: 100%;
+
+	.inner-box{
+		background: @sub-background;
+		margin: 50px auto;
+		height: 400px;
+		width: 90%;
 	}
 }
 

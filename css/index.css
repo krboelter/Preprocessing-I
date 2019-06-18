@@ -156,9 +156,9 @@ header .title-sizing {
   width: 50%;
 }
 header .title-sizing h1 {
-  font-size: 4rem;
+  font-size: 5.5rem;
   font-weight: bold;
-  padding: 15px 15px;
+  padding: 5px 15px;
 }
 header .title-sizing p {
   letter-spacing: 3px;
@@ -166,13 +166,31 @@ header .title-sizing p {
 }
 header .nav-size {
   width: 50%;
+  display: flex;
+  align-items: center;
 }
 header .nav-size .topnav {
+  width: 100%;
   display: flex;
-  justify-content: space around;
-  align-items: center;
+  justify-content: space-around;
 }
 header .nav-size .topnav a {
   text-decoration: none;
   color: #005ce6;
+  padding: 20px 20px;
+}
+header .nav-size .topnav a:hover {
+  background: #1a1a1a;
+}
+.outer-box {
+  margin: 30px auto;
+  background: #008080;
+  height: 500px;
+  width: 100%;
+}
+.outer-box .inner-box {
+  background: #262626;
+  margin: 50px auto;
+  height: 400px;
+  width: 90%;
 }
