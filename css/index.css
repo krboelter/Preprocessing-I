@@ -185,12 +185,36 @@ header .nav-size .topnav a:hover {
 .outer-box {
   margin: 30px auto;
   background: #008080;
-  height: 500px;
+  height: 600px;
   width: 100%;
 }
 .outer-box .inner-box {
   background: #262626;
   margin: 50px auto;
-  height: 400px;
+  height: 500px;
   width: 90%;
+  transform: translateY(50px);
+}
+.outer-box .inner-box .discription-content {
+  display: flex;
+  justify-content: space-between;
+}
+.outer-box .inner-box .discription-content img {
+  padding: 30px;
+  transform: translateY(10px);
+}
+.outer-box .inner-box .discription-content .discription {
+  width: 350px;
+  height: 200px;
+  word-wrap: wrap;
+  margin: 30px auto;
+}
+.outer-box .inner-box .discription-content .discription h2 {
+  font-size: 3rem;
+}
+.outer-box .inner-box .discription-content .discription p {
+  font-size: 2.3rem;
+}
+.resume-img {
+  border-radius: 50%;
 }
