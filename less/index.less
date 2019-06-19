@@ -59,6 +59,30 @@ html, body {
 
 // ********** mix-ins **********
 
+.experience-list(){
+	font-size: 2.5rem;
+
+	h2{
+		text-transform: uppercase;
+		font-size: 3rem;
+		margin: 15px 0;
+		padding-bottom: 15px;
+		border-bottom: 2px solid @secondary-highlight;
+	}
+
+	ul{
+		width: 90%;
+	}
+
+	ul li{
+		color: @secondary;
+		margin: 8px 0;
+	}
+
+	ul li:last-child{
+		margin-bottom: 75px;
+	}
+}
 
 // ********** variables **********
 
@@ -153,23 +177,26 @@ header{
 
 			img{
 				padding: 30px;
-				border: 1px solid red;
 			}
 
 			.discription{
-				width: 450px;
-				height: 200px;
+				width: 500px;
+				height: 250px;
 				word-wrap: wrap;
-				border: 1px solid red;
 
 				h2{
 					font-size: 3rem;
 					color: @text-color;
+					padding-bottom: 8px;
+					margin-bottom: 10px;
+					border-bottom: 2px solid @secondary-highlight;
+					letter-spacing: 2px;
 				}
 
 				p{
 					font-size: 2.3rem;
 					color: @secondary;
+					margin: 8px;
 				}
 			}
 		}
@@ -178,6 +205,15 @@ header{
 
 .resume-img{
 	border-radius: 50%;
+}
+
+.experience-wraper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.experience{
+	.experience-list();
 }
 
 
