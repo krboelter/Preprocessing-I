@@ -74,7 +74,7 @@ html, body {
 		width: 85%;
 
 		@media screen and (max-width: 500px){
-		list-style: solid circle;
+		list-style: circle;
 		margin-left: 20px;		
 		}
 	}
@@ -270,6 +270,16 @@ header{
 	font-size: 2rem;
 	width: 25%;
 	margin: 75px auto;
+
+	ul{
+		@media screen and (max-width: 500px){
+			list-style: none;
+		}
+	}
+
+	@media screen and (max-width: 500px){
+		width: 85%;
+	}
 
 	a{
 		text-decoration: none;

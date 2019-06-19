@@ -293,7 +293,7 @@ header .nav-size .topnav a:hover {
 }
 @media screen and (max-width: 500px) {
   .experience ul {
-    list-style: solid circle;
+    list-style: circle;
     margin-left: 20px;
   }
 }
@@ -323,7 +323,7 @@ header .nav-size .topnav a:hover {
 }
 @media screen and (max-width: 500px) {
   .bottom-footer ul {
-    list-style: solid circle;
+    list-style: circle;
     margin-left: 20px;
   }
 }
@@ -333,6 +333,16 @@ header .nav-size .topnav a:hover {
 }
 .bottom-footer ul li:last-child {
   margin-bottom: 75px;
+}
+@media screen and (max-width: 500px) {
+  .bottom-footer ul {
+    list-style: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bottom-footer {
+    width: 85%;
+  }
 }
 .bottom-footer a {
   text-decoration: none;
