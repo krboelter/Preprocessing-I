@@ -147,25 +147,29 @@ header{
 
 		.discription-content{
 			display: flex;
-			justify-content: space-between;
+			justify-content: space-around;
+			align-items: center;
+			height: 100%;
 
 			img{
 				padding: 30px;
-				transform: translateY(10px);
+				border: 1px solid red;
 			}
 
 			.discription{
-				width: 350px;
+				width: 450px;
 				height: 200px;
 				word-wrap: wrap;
-				margin: 30px auto;
+				border: 1px solid red;
 
 				h2{
 					font-size: 3rem;
+					color: @text-color;
 				}
 
 				p{
 					font-size: 2.3rem;
+					color: @secondary;
 				}
 			}
 		}

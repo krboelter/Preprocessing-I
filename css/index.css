@@ -197,23 +197,27 @@ header .nav-size .topnav a:hover {
 }
 .outer-box .inner-box .discription-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
 }
 .outer-box .inner-box .discription-content img {
   padding: 30px;
-  transform: translateY(10px);
+  border: 1px solid red;
 }
 .outer-box .inner-box .discription-content .discription {
-  width: 350px;
+  width: 450px;
   height: 200px;
   word-wrap: wrap;
-  margin: 30px auto;
+  border: 1px solid red;
 }
 .outer-box .inner-box .discription-content .discription h2 {
   font-size: 3rem;
+  color: #005ce6;
 }
 .outer-box .inner-box .discription-content .discription p {
   font-size: 2.3rem;
+  color: #008080;
 }
 .resume-img {
   border-radius: 50%;
